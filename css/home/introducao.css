@@ -1,0 +1,38 @@
+.introducao-bg{
+    background: #000000;
+    color: #ffffff;
+    box-shadow: inset 0px -130px #ffffff;
+}
+
+.container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+}
+
+.container-1 div{
+    padding-right: 350px;
+}
+
+.introducao-conteudo{
+   padding-top: 150px;
+   padding-left: 350px;
+}
+
+.introducao-conteudo h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    line-height: 1.125;
+}
+
+.introducao-conteudo h1 span{
+    color: #ffbb00;
+}
+
+.introducao-conteudo p{
+    font-size: 24px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    color: #b2b2b2;
+}
+

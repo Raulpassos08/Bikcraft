@@ -1,0 +1,35 @@
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.header-bg{
+    background-color: var(--cor-12);
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-menu{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.header-menu a{
+    color: #ffffff;
+    display: inline-block;
+    padding: 16px 0px;
+    font-size: 18px;
+}
