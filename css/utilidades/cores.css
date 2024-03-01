@@ -19,3 +19,7 @@
     --cor-p4: #331F01;
     --cor-p5: #331F01;
 }
+
+#ponto{
+    color: var(--cor-p1);
+}

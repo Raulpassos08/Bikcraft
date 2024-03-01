@@ -6,4 +6,10 @@
     text-decoration: none;
 }
 
+img[src$=".jpg"] {
+    border-radius: 5px;
+}
+
+
+
 
