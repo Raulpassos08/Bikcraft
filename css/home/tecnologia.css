@@ -36,17 +36,32 @@
 
 .tecnologia-conteudo p{
     color: var(--cor-4);
-    font-size: 20px;
+    font-size: 30px;
     padding-bottom: 20px;
 }
 
 .tecnologia-conteudo a{
     color: var(--cor-p1);
     font-size: 30px;
-   
+    border-bottom: 5px solid var(--cor-p1);
+}
+
+.tecnologia-conteudo a:hover{
+    color: var(--cor-0);
 }
 
 .tecnologia-conteudo div h3{
     color: var(--cor-0);
     font-size: 20px;
+}
+
+.modelo{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.modelo div p{
+    font-size: 17px;
 }

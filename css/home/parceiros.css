@@ -1,0 +1,42 @@
+.parceiros{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.parceiros h2{
+    margin-left: 400px;
+    margin-bottom: 60px;
+    font-size: 60px;
+}
+
+.parceiros ul{
+    padding: 0 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.parceiros li{
+    display: flex;
+    padding: 32px;
+    border-left: 2px solid var(--cor-2);
+    border-bottom: 2px solid var(--cor-2);
+}
+
+.parceiros li:first-child,
+.parceiros li:nth-child(5) {
+    border-left: none;
+}
+
+.parceiros li:nth-child(5),
+.parceiros li:nth-child(6),
+.parceiros li:nth-child(7),
+.parceiros li:nth-child(8) {
+    border-bottom: none;
+}
+
+
+.parceiros img{
+    margin: auto;
+}
