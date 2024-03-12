@@ -18,8 +18,18 @@
     font-weight: bold;
     padding: 20px;
     border-radius: 5px;
+    max-width: max-content;
 }
 
 .botao:hover{
     background: linear-gradient( #967315, #faa805);
+}
+
+.botao.secundario{
+    background: var(--cor-10);
+    color: var(--cor-2);
+}
+
+.botao.secundario:hover{
+    background: var(--cor-9);
 }
