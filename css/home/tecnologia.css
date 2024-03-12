@@ -36,8 +36,9 @@
 
 .tecnologia-conteudo p{
     color: var(--cor-4);
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 20px;
+    word-spacing: 8px;
 }
 
 .tecnologia-conteudo a{
