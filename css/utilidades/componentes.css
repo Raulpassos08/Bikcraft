@@ -33,3 +33,15 @@
 .botao.secundario:hover{
     background: var(--cor-9);
 }
+
+/*Titulos internos*/
+.titulo-bg{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--cor-11);
+    
+}
+
+.titulo-bg p{
+    margin-bottom: 4px;
+}
