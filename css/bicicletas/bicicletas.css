@@ -11,6 +11,9 @@
     color: var(--cor-4);
 }
 
+.bicicletas-bg span{
+    color: var(--cor-0);
+}
 
 .bicicletas{
     display: grid;
