@@ -36,3 +36,40 @@
     color: #b2b2b2;
 }
 
+@media (max-width: 1800px) {
+    .introducao-conteudo{
+        padding-top: 50px;
+        padding-left: 150px;
+     }
+  }
+
+@media (max-width: 1296px) {
+    .introducao-conteudo{
+        padding-top: 0px;
+        padding-left: 100px;
+     }
+     .introducao-conteudo h1{
+        font-size: 40px;
+    }
+    .introducao-conteudo p{
+        font-size: 20px;
+    }
+    .introducao-bg{
+        background: #000000;
+        color: #ffffff;
+        box-shadow: inset 0px -10px #ffffff;
+    }
+  }
+
+  @media (max-width: 982px) {
+    .container-1 div{
+        padding-right: 150px;
+    }
+  }
+
+  @media (max-width: 670px) {
+    .container-1 div{
+        padding-right: 50px;
+    }
+  }
+
